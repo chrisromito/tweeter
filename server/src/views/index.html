@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+    {{ super() }}
+    <app-bar></app-bar>
+    <v-main>
+        <app-body></app-body>
+    </v-main>
+{% endblock %}
+{% block script_config %}
+    <script>
+        window.__APP__ = {
+            userApi: '/login/',
+            postApi: '/api/post/'
+        };
+    </script>
+{% endblock %}
+
+{% block scripts %}
+    {{ loadBundle('tweeter') }}
+{% endblock %}

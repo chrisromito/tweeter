@@ -1,0 +1,9 @@
+{
+    "watch": [
+        "server/dist"
+    ],
+    "ignore": [
+        "server/src",
+        "client"
+    ]
+}

@@ -1,0 +1,12 @@
+*.log
+*.code-workspace
+.vscode/*
+**/.DS_Store
+.idea
+.vscode
+node_modules
+dist
+server/dist/**
+client/dist/**
+node_modules/*
+private

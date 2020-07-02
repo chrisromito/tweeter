@@ -1,0 +1,101 @@
+import Vue from 'vue'
+import Vuetify from 'vuetify/lib'
+import 'vuetify/dist/vuetify.min.css'
+import {
+    VApp,
+    VAppBar,
+    VAppBarNavIcon,
+    VAvatar,
+    VBtn,
+    VCalendar,
+    VCard,
+    VCardActions,
+    VCardText,
+    VCardTitle,
+    VCheckbox,
+    VChip,
+    VChipGroup,
+    VCol,
+    VCombobox,
+    VContainer,
+    VDivider,
+    VForm,
+    VIcon,
+    VList,
+    VListGroup,
+    VListItemGroup,
+    VListItem,
+    VListItemAction,
+    VListItemAvatar,
+    VListItemContent,
+    VListItemIcon,
+    VListItemTitle,
+    VMain,
+    VMenu,
+    VOverlay,
+    VProgressCircular,
+    VRow,
+    VSelect,
+    VSpacer,
+    VSheet,
+    VSubheader,
+    VTextarea,
+    VTextField,
+    VToolbar,
+    VToolbarItems,
+    VToolbarTitle
+} from 'vuetify/lib'
+
+Vue.use(Vuetify, {
+    components: {
+        VApp,
+        VAppBar,
+        VAppBarNavIcon,
+        VAvatar,
+        VBtn,
+        VCalendar,
+        VCard,
+        VCardActions,
+        VCardText,
+        VCardTitle,
+        VCheckbox,
+        VChip,
+        VChipGroup,
+        VCol,
+        VCombobox,
+        VContainer,
+        VDivider,
+        VForm,
+        VIcon,
+        VList,
+        VListGroup,
+        VListItemGroup,
+        VListItem,
+        VListItemAction,
+        VListItemAvatar,
+        VListItemContent,
+        VListItemIcon,
+        VListItemTitle,
+        VMain,
+        VMenu,
+        VOverlay,
+        VProgressCircular,
+        VRow,
+        VSelect,
+        VSpacer,
+        VSheet,
+        VSubheader,
+        VTextarea,
+        VTextField,
+        VToolbar,
+        VToolbarItems,
+        VToolbarTitle
+    }
+})
+
+export const vuetify = new Vuetify({
+    theme: {
+        dark: true
+    }
+})
+export default vuetify

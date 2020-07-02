@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+    <title>
+        Tweeter
+    </title>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <div id="app"  class="page-container">
+        <v-app>
+            {% block body %}
+            {% endblock %}
+        </v-app>
+    </div>
+
+
+    {% block script_config %}
+        <script>
+            window.__DEBUG__ = Boolean({{ DEBUG }});
+        </script>
+    {% endblock %}
+    {% block scripts %}
+    {% endblock %}
+
+    {# Load icons last #}
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css" rel="stylesheet">
+</body>
+</html>
